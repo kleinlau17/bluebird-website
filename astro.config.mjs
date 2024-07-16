@@ -8,7 +8,7 @@ import lit from "@astrojs/lit";
 export default defineConfig({
   server: {
     host: '0.0.0.0',
-    port: 4321, // 确保端口设置正确
+    port: 4321 // 这里设置端口号
   },
   site: 'https://odyssey-theme.sapling.supply/', // Your public domain, e.g.: https://my-site.dev/. Used to generate sitemaps and canonical URLs.
   sitemap: true, // Generate sitemap (set to "false" to disable)
